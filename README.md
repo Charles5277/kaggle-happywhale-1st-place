@@ -4,7 +4,7 @@
 docker build -t happywhale .`
 docker run --rm -it -v .:/workspace happlywhale /bin/bash
 ```
-啟動後從 [Step 1](https://github.com/tyamaguchi17/kaggle-happywhale-1st-place-solution-charmq/tree/master/happywhale_data) 開始依照指示訓練與後處理
+啟動後從 [Step 1](https://github.com/Charles5277/kaggle-happywhale-1st-place/blob/master/README.md#step-1-training-and-inference) 開始依照指示訓練與後處理
 
 ----------
 # 1st Place Solution of Kaggle Happywhale Competition
