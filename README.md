@@ -1,3 +1,12 @@
+先將[官方資料集](https://www.kaggle.com/c/happy-whale-and-dolphin/data) (約60GB) 下載解壓放到 /input 中，再將[此處](https://github.com/tyamaguchi17/kaggle-happywhale-1st-place-solution-charmq/tree/master/happywhale_data)所有 CSV 檔案放入 /input 中
+接著執行 
+```
+docker build -t happywhale .`
+docker run --rm -it -v .:/workspace happlywhale /bin/bash
+```
+啟動後從 [Step 1](https://github.com/tyamaguchi17/kaggle-happywhale-1st-place-solution-charmq/tree/master/happywhale_data) 開始依照指示訓練與後處理
+
+----------
 # 1st Place Solution of Kaggle Happywhale Competition
 This is the knshnb's part of the Preferred Dolphin's solution for [Happywhale - Whale and Dolphin Identification](https://www.kaggle.com/competitions/happy-whale-and-dolphin).
 
